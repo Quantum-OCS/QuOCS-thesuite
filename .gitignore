@@ -1,3 +1,6 @@
+# QuOCS suite results folder
+QuOCS_Results
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
