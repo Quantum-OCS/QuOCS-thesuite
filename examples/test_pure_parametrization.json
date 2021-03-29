@@ -36,13 +36,12 @@
         ]
     },
     "communication": {
-        "communication_type": "AllInOneCommunication",
-        "results_folder": "/home/mrossign/QuOCS/quocs-thesuite/QuOCS_Results"
+        "communication_type": "AllInOneCommunication"
     },
     "figure_of_merit": {
         "further_args": {},
         "program_type": "TestClass",
-        "python_module": "examples.RosenbrockClass",
+        "python_module": "quocs_optlib.optimalcontrolproblems.RosenbrockProblem",
         "python_class": "Rosenbrock"
     }
 }
