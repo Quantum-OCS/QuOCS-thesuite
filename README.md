@@ -1,6 +1,6 @@
 ## QuOCS - The Suite
 quocs-suite is the main executable script of the optimization library. It is based on the following repositories:
-* the tools: 
+* the tools: https://github.com/Quantum-OCS/QuOCS-tools
 * the optimization library: https://github.com/Quantum-OCS/QuOCS
 * the PySide2 interface: https://github.com/Quantum-OCS/QuOCS-pyside2interface
 
