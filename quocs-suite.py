@@ -1,8 +1,8 @@
 from qtpy import QtWidgets
 from qtpy import QtCore
 
-from quocs_pyqtinterface.gui.OptimizationBasicGui import OptimizationBasicGui
-from quocs_pyqtinterface.logic.OptimizationBasic import OptimizationBasic
+from quocs_pyside2interface.gui.OptimizationBasicGui import OptimizationBasicGui
+from quocs_pyside2interface.logic.OptimizationBasic import OptimizationBasic
 from quocs_optlib.communication.AllInOneCommunication import AllInOneCommunication
 from quocs_optlib.tools.dynamicimport import dynamic_import
 
