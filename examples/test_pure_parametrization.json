@@ -2,7 +2,7 @@
     "optimization_dictionary": {
         "optimization_client_name": "PureParametrizationOptimization_Test",
         "opti_algorithm_name": "DirectSearchMethod",
-        "opti_algorithm_module": "quocs_optlib.optimalalgorithms.DirectSearchAlgorithm",
+        "opti_algorithm_module": "quocslib.optimalalgorithms.DirectSearchAlgorithm",
         "opti_algorithm_class": "DirectSearchAlgorithm",
         "algorithm_settings": {},
         "dsm_settings": {
@@ -41,7 +41,7 @@
     "figure_of_merit": {
         "further_args": {},
         "program_type": "TestClass",
-        "python_module": "quocs_optlib.optimalcontrolproblems.RosenbrockProblem",
+        "python_module": "quocslib.optimalcontrolproblems.RosenbrockProblem",
         "python_class": "Rosenbrock"
     }
 }

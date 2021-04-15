@@ -2,7 +2,7 @@
     "optimization_dictionary": {
         "optimization_client_name": "Optimization_dCRAB_Qubit",
         "opti_algorithm_name": "dCRAB",
-        "opti_algorithm_module": "quocs_optlib.optimalalgorithms.dCRABAlgorithm",
+        "opti_algorithm_module": "quocslib.optimalalgorithms.dCRABAlgorithm",
         "opti_algorithm_class": "DCrabAlgorithm",
         "algorithm_settings": {
             "super_iteration_number": 6,
@@ -30,12 +30,12 @@
                 "basis": {
                     "basis_name": "Fourier",
                     "basis_class": "Fourier",
-                    "basis_module": "quocs_optlib.pulses.basis.Fourier",
+                    "basis_module": "quocslib.pulses.basis.Fourier",
                     "basis_vector_number": 10,
                     "random_frequencies_distribution": {
                         "distribution_name": "Uniform",
                         "distribution_class": "Uniform",
-                        "distribution_module": "quocs_optlib.pulses.frequency.Uniform",
+                        "distribution_module": "quocslib.pulses.frequency.Uniform",
                         "lower_limit": 0.1,
                         "upper_limit": 30.0
                     }
@@ -64,7 +64,7 @@
     "figure_of_merit": {
         "further_args": {},
         "program_type": "TestClass",
-        "python_module": "quocs_optlib.optimalcontrolproblems.OneQubitProblem",
+        "python_module": "quocslib.optimalcontrolproblems.OneQubitProblem",
         "python_class": "OneQubit"
     }
 }
