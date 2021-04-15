@@ -1,10 +1,11 @@
 from qtpy import QtWidgets
 from qtpy import QtCore
 
-from quocs_pyside2interface.gui.OptimizationBasicGui import OptimizationBasicGui
-from quocs_pyside2interface.logic.OptimizationBasic import OptimizationBasic
-from quocs_optlib.communication.AllInOneCommunication import AllInOneCommunication
-from quocs_optlib.tools.dynamicimport import dynamic_import
+from quocspyside2interface.gui.OptimizationBasicGui import OptimizationBasicGui
+from quocspyside2interface.logic.OptimizationBasic import OptimizationBasic
+from quocslib.communication.AllInOneCommunication import AllInOneCommunication
+from quocslib.tools.dynamicimport import dynamic_import
+from quocstools.BestDump import BestDump
 
 import time
 
@@ -21,7 +22,9 @@ class OptimizationLogic(QtCore.QObject, OptimizationBasic):
             class_name=figure_of_merit_dictionary.setdefault("python_class", None))
         interface_job_name = optimization_dictionary["optimization_client_name"]
         communication_obj = AllInOneCommunication(
-            interface_job_name=interface_job_name, fom_obj=fom_attribute(args_dict=figure_of_merit_dictionary),
+            interface_job_name=interface_job_name,
+            fom_obj=fom_attribute(args_dict=figure_of_merit_dictionary),
+            dump_attribute=BestDump,
             handle_exit_obj=self.handle_exit_obj,
             comm_signals_list=[self.message_label_signal, self.fom_plot_signal, self.controls_update_signal])
         # Get the optimizer attribute
@@ -29,7 +32,6 @@ class OptimizationLogic(QtCore.QObject, OptimizationBasic):
             attribute=optimization_dictionary.setdefault("opti_algorithm_attribute", None),
             module_name=optimization_dictionary.setdefault("opti_algorithm_module", None),
             class_name=optimization_dictionary.setdefault("opti_algorithm_class", None))
-        print("The dictionary you used")
         optimizer_obj = optimizer_attribute(optimization_dict=optimization_dictionary,
                                             communication_obj=communication_obj)
         try:
