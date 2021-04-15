@@ -20,7 +20,7 @@ python -m pip install --upgrade pip setuptools wheel
 Install all the quocs packages:
 ```bash
 python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS-tools#egg=quocs_tools 
-python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS#egg=quocs_optlib 
+python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS#egg=quocs_lib 
 python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS-pyside2interface#egg=quocs_pyside2interface
 ```
 Now you can launch the suite in the main folder
