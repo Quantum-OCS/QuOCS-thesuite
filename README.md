@@ -29,4 +29,4 @@ python quocs-thesuite.py
 
 ### Examples
 In the examples' folder you can find few config json files to be loaded in the gui
-and used to test the PureParametrization and the dCRAb algorithm.
+and used to test the PureParametrization and the dCRAB algorithm.
