@@ -17,9 +17,8 @@ Install basic packages
 ```bash
 python -m pip install --upgrade pip setuptools wheel
 ```
-Install all the quocs packages:
+Install the quocs packages:
 ```bash
-python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS-tools#egg=quocs_tools 
 python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS#egg=quocs_lib 
 python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS-pyside2interface#egg=quocs_pyside2interface
 ```
@@ -30,4 +29,4 @@ python quocs-thesuite.py
 
 ### Examples
 In the examples' folder you can find few config json files to be loaded in the gui
-and used to test the PureParametrization and the dCRAb algorithm.
+and used to test the PureParametrization and the dCRAB algorithm.
