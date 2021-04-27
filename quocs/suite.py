@@ -6,7 +6,7 @@ from qtpy import QtCore
 from quocspyside2interface.gui.OptimizationBasicGui import OptimizationBasicGui
 from quocspyside2interface.logic.OptimizationBasic import OptimizationBasic
 from quocslib.communication.AllInOneCommunication import AllInOneCommunication
-from quocslib.tools.dynamicimport import dynamic_import
+from quocstools.dynamicimport import dynamic_import
 from quocstools.BestDump import BestDump
 
 import time
