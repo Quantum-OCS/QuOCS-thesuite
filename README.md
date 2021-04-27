@@ -21,7 +21,7 @@ Install the quocs packages:
 ```bash
 python -m pip install -e git+https://github.com/Quantum-OCS/QuOCS-thesuite#egg=quocs-thesuite
 ```
-Now you can launch the suite in the main folder
+Now you can launch the programme with
 ```bash
 quocs
 ```
