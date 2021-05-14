@@ -32,10 +32,10 @@
                     "basis_class": "Fourier",
                     "basis_module": "quocslib.pulses.basis.Fourier",
                     "basis_vector_number": 10,
-                    "random_frequencies_distribution": {
+                    "random_super_parameter_distribution": {
                         "distribution_name": "Uniform",
                         "distribution_class": "Uniform",
-                        "distribution_module": "quocslib.pulses.frequency.Uniform",
+                        "distribution_module": "quocslib.pulses.super_parameter.Uniform",
                         "lower_limit": 0.1,
                         "upper_limit": 30.0
                     }
