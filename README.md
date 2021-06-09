@@ -1,10 +1,17 @@
 ## QuOCS - The Suite
+
 quocs-suite is the main executable script of the optimization library. It is based on the following repositories:
 * the tools: https://github.com/Quantum-OCS/QuOCS-tools
 * the optimization library: https://github.com/Quantum-OCS/QuOCS
 * the PySide2 interface: https://github.com/Quantum-OCS/QuOCS-pyside2interface
 
+## Unittesting
+
+[![Build Status](https://github.com/Quantum-OCS/QuOCS-thesuite/actions/workflows/unit_testing_linux.yml/badge.svg)](https://github.com/Quantum-OCS/QuOCS-thesuite/actions)
+[![Build Status](https://github.com/Quantum-OCS/QuOCS-thesuite/actions/workflows/unit_testing_windows.yml/badge.svg)](https://github.com/Quantum-OCS/QuOCS-thesuite/actions)
+
 ### Installation
+
 Create a virtual environment
 ```bash
 python3 -m venv quocs-venv
